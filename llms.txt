@@ -19,6 +19,10 @@
 - Interiors, repairs, equipment and landscaping are quoted per job with a fixed price up front. Quotes are free.
 - Referral program: regular customers pay less per visit for every referred friend who joins a regular plan, down to $67 a fortnightly visit.
 
+## Strata and body corporate pools
+Weekly or fortnightly pool servicing for strata schemes and owners corporations from Sydney to Newcastle: clean, water testing and balancing, plant room checks, a short report to the strata manager after every visit, and gate, fence and sign issues flagged. Month to month, no lock-in contracts. Free site inspection, then a fixed monthly price in writing plus chemicals as used.
+Details: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/strata.html
+
 ## Where we work
 Sydney to Newcastle, NSW: Sydney, Northern Beaches, Hills District, Hornsby, Central Coast (Gosford, Terrigal, Erina, Tuggerah, Wyong, The Entrance), Lake Macquarie and Newcastle.
 
@@ -36,3 +40,4 @@ Sydney to Newcastle, NSW: Sydney, Northern Beaches, Hills District, Hornsby, Cen
 - Service area: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#area
 - FAQ: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#faq
 - Book a visit: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#book
+- Strata pools: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/strata.html
