@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/sitemap.xml
