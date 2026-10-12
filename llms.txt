@@ -25,7 +25,7 @@
 
 ## Strata and body corporate pools
 Weekly or fortnightly pool servicing for strata schemes and owners corporations from Sydney to Newcastle: clean, water testing and balancing, plant room checks, a short report to the strata manager after every visit, and gate, fence and sign issues flagged. Month to month, no lock-in contracts. Free site inspection, then a fixed monthly price in writing plus chemicals as used.
-Details: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/strata.html
+Details: https://lukewarmpools.com.au/strata.html
 
 ## Where we work
 Sydney to Newcastle, NSW: Sydney, Northern Beaches, Hills District, Hornsby, Central Coast (Gosford, Terrigal, Erina, Tuggerah, Wyong, The Entrance), Lake Macquarie and Newcastle.
@@ -34,14 +34,15 @@ Sydney to Newcastle, NSW: Sydney, Northern Beaches, Hills District, Hornsby, Cen
 - Phone or text: 0411 933 189
 - Email: info.lukewarmpools@gmail.com
 - Instagram: @lukewarmpools
-- Book online: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#book
+- Book online: https://lukewarmpools.com.au/#book
 - ABN 96 875 541 013, GST registered
 
 ## Key pages
-- Services: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#services
-- Pool care plans and prices: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#plans
-- Referral program: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#refer
-- Service area: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#area
-- FAQ: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#faq
-- Book a visit: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/#book
-- Strata pools: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/strata.html
+- Services: https://lukewarmpools.com.au/#services
+- Pool care plans and prices: https://lukewarmpools.com.au/#plans
+- Referral program: https://lukewarmpools.com.au/#refer
+- Service area: https://lukewarmpools.com.au/#area
+- FAQ: https://lukewarmpools.com.au/#faq
+- Book a visit: https://lukewarmpools.com.au/#book
+- Strata pools: https://lukewarmpools.com.au/strata.html
+- The Lukewarm Club (monthly pool membership, chemicals included, from $149 a month): https://lukewarmpools.com.au/club.html

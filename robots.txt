@@ -35,4 +35,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://infolukewarmpools-droid.github.io/lukewarm-pools-website/sitemap.xml
+Sitemap: https://lukewarmpools.com.au/sitemap.xml
