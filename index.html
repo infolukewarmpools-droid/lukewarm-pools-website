@@ -212,6 +212,20 @@ footer a:hover{color:var(--gold-l)}
   .mobile-bar .call{border:1px solid rgba(244,236,224,.45);color:var(--sand)}
   .mobile-bar .bk{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--abyss)}
 }
+/* mobile hero tidy-up */
+@media (max-width:860px){
+  header .wrap{height:76px}
+  header .btn{display:none}
+  .hero{padding:110px 0 112px}
+  .hero .kicker{font-size:10.5px;letter-spacing:.2em;margin-bottom:14px}
+  .hero .kicker .k2{display:none}
+  .hero h1{font-size:clamp(46px,13vw,66px)}
+  .hero p.sub{font-size:16px;line-height:1.55;margin:16px 0 26px}
+  .hero .ctas .btn-line{display:none}
+  .hero .ctas .btn-gold{width:100%}
+  .trust{margin-top:28px;padding-top:16px;gap:8px 18px;font-size:10.5px;letter-spacing:.14em}
+  .trust span:nth-child(4){display:none}
+}
 </style>
 </head>
 <body>
@@ -233,7 +247,7 @@ footer a:hover{color:var(--gold-l)}
   <section class="hero">
     <img src="assets/6f5dfcf527.jpg" alt="" fetchpriority="high">
     <div class="wrap">
-      <p class="kicker">Pools, interiors &amp; outdoor living · Sydney to Newcastle</p>
+      <p class="kicker">Pools, interiors &amp; outdoor living<span class="k2"> · Sydney to Newcastle</span></p>
       <h1><em>Just right</em> every time.</h1>
       <p class="sub">Crystal clear water, a finish that turns heads and a backyard to match. One crew looks after the lot, so you spend summer in the pool, not working on it.</p>
       <div class="ctas">
