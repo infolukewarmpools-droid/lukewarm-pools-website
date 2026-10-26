@@ -4,7 +4,7 @@ Just right every time. Pool care, interiors, repairs, equipment and landscape de
 
 Live site: https://lukewarmpools.com.au
 
-Call or text 0411 933 189 · info.lukewarmpools@gmail.com
+Call or text 0411 933 189 · luke@lukewarmpools.com.au
 
 ## Security
 
