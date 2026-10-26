@@ -76,8 +76,11 @@ header nav a:hover{opacity:1;color:var(--gold-l)}
 
 /* hero */
 .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;color:var(--sand);padding:0 0 clamp(60px,9vw,100px);overflow:hidden;background:var(--abyss)}
-.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.15)}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,31,38,.55) 0%,rgba(6,42,51,.1) 38%,rgba(4,31,38,.88) 100%)}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,31,38,.82) 0%,rgba(4,31,38,.6) 38%,rgba(4,31,38,.1) 68%,rgba(4,31,38,0) 100%),linear-gradient(180deg,rgba(4,31,38,.45) 0%,rgba(4,31,38,0) 22%,rgba(4,31,38,0) 70%,rgba(4,31,38,.6) 100%)}
+@media (max-width:860px){.hero::after{background:linear-gradient(180deg,rgba(4,31,38,.4) 0%,rgba(4,31,38,.05) 16%,rgba(4,31,38,.62) 34%,rgba(4,31,38,.8) 62%,rgba(4,31,38,.9) 100%)}.hero>img{object-position:50% 20%}}
+.hero .wrap{text-shadow:0 2px 22px rgba(4,31,38,.5)}
+.hero .kicker{color:var(--gold-l)}
 .hero .wrap{position:relative;z-index:1;width:100%}
 .hero h1{font-size:clamp(58px,10.5vw,136px);max-width:920px}
 .hero h1 em{color:var(--gold-l)}
@@ -85,6 +88,21 @@ header nav a:hover{opacity:1;color:var(--gold-l)}
 .ctas{display:flex;flex-wrap:wrap;gap:12px}
 .trust{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:52px;padding-top:24px;border-top:1px solid rgba(227,201,149,.35);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:rgba(244,236,224,.85)}
 .trust span::before{content:"\25C6";color:var(--gold);margin-right:10px;font-size:9px;vertical-align:2px}
+
+/* welcome */
+.welcome{padding:clamp(70px,10vw,120px) 0 clamp(20px,4vw,40px);background:var(--ivory)}
+.welcome .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(36px,6vw,90px);align-items:center}
+.welcome figure{margin:0;position:relative}
+.welcome figure img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:28px;box-shadow:0 30px 60px -30px rgba(4,31,38,.45)}
+.welcome figcaption{position:absolute;left:18px;bottom:18px;background:rgba(251,247,240,.94);color:var(--ocean);padding:8px 16px;border-radius:999px;font-size:13px;letter-spacing:.04em}
+.welcome h2{margin-bottom:22px}
+.welcome .intro{font-size:18px;margin:0 0 22px;max-width:560px}
+.perks{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:10px}
+.perks li{display:flex;gap:12px;align-items:baseline}
+.perks li::before{content:"\2713";color:var(--turq);font-weight:600}
+.hello-offer{background:linear-gradient(135deg,#fff8ec,var(--linen));border:1px solid var(--gold-l);border-radius:20px;padding:18px 22px;margin:0 0 26px;color:var(--ocean);font-size:16px;line-height:1.55}
+.hello-offer b{font-weight:600}
+@media (max-width:860px){.welcome .wrap{grid-template-columns:1fr}.welcome figure img{aspect-ratio:4/3}.welcome .ctas .btn{flex:1 1 100%}}
 
 /* pay strip */
 .strip{background:linear-gradient(90deg,var(--lagoon),#0e6d77 50%,var(--lagoon));color:var(--sand);padding:22px 0}
@@ -276,11 +294,11 @@ footer a:hover{color:var(--gold-l)}
 
 <main id="top">
   <section class="hero">
-    <img src="assets/6f5dfcf527.jpg" alt="" fetchpriority="high">
+    <img src="assets/e2733b8943.jpg" alt="" fetchpriority="high">
     <div class="wrap">
-      <p class="kicker">Pools, interiors &amp; outdoor living<span class="k2"> · Sydney to Newcastle</span></p>
+      <p class="kicker">Your friendly local pool crew<span class="k2"> · Sydney to Newcastle</span></p>
       <h1><em>Just right</em> every time.</h1>
-      <p class="sub">Crystal clear water, a finish that turns heads and a backyard to match. One crew looks after the lot, so you spend summer in the pool, not working on it.</p>
+      <p class="sub">Welcome in. We keep your water sparkling, fix what's broken and make your backyard the place everyone wants to be. You relax, we'll look after the rest.</p>
       <div class="ctas">
         <a class="btn btn-gold" href="#book">Book a pool visit</a>
         <a class="btn btn-line" href="#book" data-plan="Something else">Get a free quote</a>
@@ -296,6 +314,31 @@ footer a:hover{color:var(--gold-l)}
       <p style="margin:0"><b>Fully insured</b>$5m public liability</p>
     </div>
   </div>
+
+
+  <section class="welcome" aria-labelledby="hello-title">
+    <div class="wrap">
+      <figure>
+        <img src="assets/x-epoxy-blue.jpg" alt="Freshly finished blue pool interior, filled and sparkling" loading="lazy">
+        <figcaption>One of our recent interiors</figcaption>
+      </figure>
+      <div>
+        <p class="kicker">Welcome</p>
+        <h2 id="hello-title">Hi, I'm <em>Luke</em>.</h2>
+        <p class="intro">I've spent 14 years working in pools and backyards, and I started Lukewarm so locals have one friendly crew they can trust with the whole lot. We're a small team: we turn up when we say we will, explain what we find in plain English and leave your pool just right.</p>
+        <ul class="perks">
+          <li>The same friendly faces every visit</li>
+          <li>A clear price before we start, no surprises</li>
+          <li>No lock-in contracts, ever</li>
+        </ul>
+        <p class="hello-offer"><b>New here?</b> Your first regular visit is half price when you book before 30 November.</p>
+        <div class="ctas">
+          <a class="btn btn-gold" href="#book">Book a pool visit</a>
+          <a class="btn btn-ghost" href="tel:0411933189">Call or text Luke</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <section id="why" class="why">
